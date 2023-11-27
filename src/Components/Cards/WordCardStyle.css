@@ -1,0 +1,61 @@
+.projHead{
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+
+}
+
+.projCon{
+  max-width: 1150px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-bottom:5rem ;
+ gap: 5rem;
+}
+
+.projCard{
+  background: #1a1919;
+  padding: 1.2rem 1rem;
+ 
+}
+
+.projCard img{
+  width: 100% 
+}
+
+.projT{
+  color:#fff;
+  padding: 1rem;
+}
+
+.projDel p{
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align:center;
+  margin-bottom: 1.5rem;
+}
+
+.projBtns{
+  position: relative;
+  top: auto;
+  left: 8rem;
+  margin-bottom: 1rem;
+
+}
+.projBtns .btn{
+  padding: 0.8rem ;
+  
+}
+
+
+
+
+@media screen and (max-width:740px) {
+  .projCon{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+
+  }
+  
+}

@@ -1,0 +1,60 @@
+.banner2{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+  position: relative;
+}
+
+.banner2::before{
+  content: "";
+  background: url("../../assets//bulbBan2.avif");
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+
+.heading{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner2 h1{
+  font-size:3rem;
+}
+
+.banner2 p{
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.s0{
+  color: rgba(250, 244, 244, 0.579);
+
+}
+
+.s1{
+color: rgba(250, 244, 244, );
+}
+
+.s2{
+  color: rgba(255, 217, 0, 0.904);
+}
+
+
+
+@media screen and(max-width:640px) {
+  .banner2 h1{
+    font-size: 2rem;
+  }
+}

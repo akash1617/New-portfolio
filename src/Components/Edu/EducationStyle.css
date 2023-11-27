@@ -1,0 +1,160 @@
+.education .right {
+  max-width: 600px;
+  margin: auto;
+
+
+}
+
+.right .image-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .image {
+  max-width: 90%;
+  border: 5px solid #333;
+  box-shadow: 5px 2.5px 50px 5px #a5c6cc72;
+  border-radius: 50%;
+
+}
+
+.right .image-stack.top {
+  grid-column: 2 / span 8;
+  grid-row: 1;
+  padding-top: 20%;
+
+  z-index: 6;
+}
+
+.education {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.edu-list-contain {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.edu-container {
+  padding: 1.5rem 4.5rem;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.8rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.edu-container h3 {
+  margin-bottom: .5rem;
+}
+
+.edu-container ul li {
+  margin: 15px 0;
+}
+
+@media screen and (max-width:1024px) {
+  .education {
+    justify-content: space-around;
+  }
+
+  .education .right {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .edu-container {
+    padding: 1.8rem 2rem;
+  }
+
+  .right .image {
+    max-width: 90%;
+
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+
+  .edu-container {
+    padding: 1.8rem 4rem;
+  }
+
+
+  .right .image {
+    max-width: 90%;
+
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .about {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+
+  .edu-container {
+    width: 320px;
+    padding: 1rem 1rem;
+  }
+
+  .left {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width:350px) {
+  .about {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .education {
+    flex-direction: column;
+  }
+
+  .edu-container {
+    width: 280px;
+    padding: .9rem 1rem;
+  }
+
+  .edu-container ul li {
+    margin: 9px 0;
+  }
+
+
+  .right .image {
+    max-width: 90%;
+
+    margin-left: 20%;
+  }
+}
