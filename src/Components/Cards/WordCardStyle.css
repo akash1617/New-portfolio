@@ -1,15 +1,22 @@
-.projHead{
+body,html {
+  width: 100%;
+}
+.workcard{
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+.aboutHead{
   text-align: center;
-  padding: 4rem 0 2rem 0;
-
+  padding: 1rem 0;
 }
 
 .projCon{
+  width: 100%;
   max-width: 1150px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  padding-bottom:5rem ;
  gap: 5rem;
 }
 
@@ -27,7 +34,11 @@
   color:#fff;
   padding: 1rem;
 }
-
+.projDel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projDel p{
   padding-bottom: 1rem;
   font-size: 1.1rem;
@@ -35,27 +46,25 @@
   margin-bottom: 1.5rem;
 }
 
-.projBtns{
-  position: relative;
-  top: auto;
-  left: 8rem;
-  margin-bottom: 1rem;
 
-}
-.projBtns .btn{
-  padding: 0.8rem ;
+
+@media screen and (max-width:1024px) {
+  .projCon{
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+
+  }
   
 }
-
-
-
-
-@media screen and (max-width:740px) {
+@media screen and (max-width:640px) {
   .projCon{
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;
 
   }
-  
+  .workcard{
+    padding: 0 .5rem;
+  }
 }

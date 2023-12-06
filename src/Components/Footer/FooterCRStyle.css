@@ -1,0 +1,12 @@
+.copyrights p {
+  text-align: center;
+  background-color: #fff;
+  color: var(--Black-color2);
+  font-family: var(--Alata-Font);
+  font-size: 1.2rem;
+ padding: 0.3rem  ;
+  position: sticky;
+  
+  bottom: 0;
+  width: 100%;
+}

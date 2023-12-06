@@ -7,7 +7,7 @@ import WorkCard from '../Components/Cards/WordCard'
 
 const Project = () => {
   return (
-    <div>
+    <div >
     <NavBar/>
     <Banner2 heading="PROJECT_" text="Some of the Project "/>
    <WorkCard/>

@@ -1,8 +1,6 @@
 .footer{
-    width: 100%;
-    padding: 5rem 0; 
+    padding: 4rem 0; 
     background-color: rgba(20, 20, 20, 0.9);
-    
 }
 
 .footerCon{
@@ -12,6 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   
+
 }  
 
 .leftFoot{
@@ -52,6 +51,20 @@ h4{
 
 p{
   font-size: 1.2rem;
+}
+
+
+.copyrights p {
+  text-align: center;
+  background-color: #fff;
+  color: var(--Black-color2);
+  font-family: var(--Alata-Font);
+  font-size: 1.2rem;
+ padding: 0.3rem  ;
+  position: sticky;
+  
+  bottom: 0;
+  width: 100%;
 }
 
 @media screen and (max-width:640px) {

@@ -14,8 +14,13 @@ const Banner = () => {
      <h1> <span className='s0'>HI, I'm a</span> <span className='s1'>AKASH</span>  <span className='s2'>VISHWA</span> </h1>
      <h2>Web Developer</h2>
      <div className='twobtn'>
-      <Link to="/about" className='btn'>About Me</Link>
-      <Link to="/contact" className='btn-light'>Contact</Link>
+     <a
+     href="https://drive.google.com/file/d/1PYt4WGYjJOA_NA1JItuPhgSsKIcKDURu/view?usp=drive_link"
+     target="_blank"
+   >
+     <button className="btn">Resume</button>
+   </a>
+      <Link to="/project" className='btn-light'>Project</Link>
      </div>
      </div>
     </div>
